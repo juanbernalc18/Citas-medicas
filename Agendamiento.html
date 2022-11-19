@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda tu cita</title>
+    <link rel="stylesheet" href="/Agendamiento/agenda.css" />
+  </head>
+  <body>
+    <section class="form-register">
+      <h2>AGENDA TU CITA</h2>
+
+      <select class="controls" id="convenio">
+        <option class="eps" value=" ">EPS o Convenio</option>
+        <option class="eps" value="1">Sanitas</option>
+        <option class="eps" value="2">Nueva EPS</option>
+        <option class="eps" value="3">Compensar</option>
+        <option class="eps" value="4">Ponal</option>
+        <option class="eps" value="5">Sura</option>
+        <option class="eps" value="Otro">Otro</option>
+      </select>
+      <select class="controls" id="document">
+        <option value="">Documento</option>
+        <option value="Registro civil">Registro civil</option>
+        <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+        <option value="Cedula de ciudadania">Cédula de ciudadania</option>
+        <option value="Cedula de extranjeria">Cédula de extranjeria</option>
+        <option value="Pasaporte">Pasaporte</option>
+        <option value="Permiso especial">Permiso especial</option>
+        <option value="Otro">Otro</option>
+      </select>
+      <input
+        class="controls"
+        type="text"
+        name="numero"
+        id="numero"
+        placeholder="N° de documento"
+      />
+      <input
+        class="controls"
+        type="text"
+        name="nombres"
+        id="nombres"
+        placeholder="Nombres"
+      />
+      <input
+        class="controls"
+        type="text"
+        name="apellidos"
+        id="apellidos"
+        placeholder="Apellidos"
+      />
+      <select class="controls" id="genero">
+        <option value="genero">Genero</option>
+        <option value="1">Hombre</option>
+        <option value="2">Mujer</option>
+        <option value="3">Otro</option>
+      </select>
+      <input
+        class="controls"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Correo"
+      />
+      <input
+        class="controls"
+        type="phone"
+        name="celular"
+        id="celular"
+        placeholder="Celular"
+      />
+      <select class="controls" id="ciudad">
+        <option value="">Ciudad</option>
+        <option value="Arauca">Arauca</option>
+        <option value="Armenia">Armenia</option>
+        <option value="Barranquilla">Barranquilla</option>
+        <option value="Bogotá">Bogotá</option>
+        <option value="Bucaramanga">Bucaramanga</option>
+        <option value="Cali">Cali</option>
+        <option value="Cartagena">Cartagena</option>
+        <option value="Cúcuta">Cúcuta</option>
+        <option value="Florencia">Florencia</option>
+        <option value="Ibagué">Ibagué</option>
+        <option value="Leticia">Leticia</option>
+        <option value="Manizales">Manizales</option>
+        <option value="Medellín">Medellín</option>
+        <option value="Mitú">Mitú</option>
+        <option value="Mocoa">Mocoa</option>
+        <option value="Montería">Montería</option>
+        <option value="Neiva">Neiva</option>
+        <option value="Pasto">Pasto</option>
+        <option value="Pereira">Pereira</option>
+        <option value="Popayán">Popayán</option>
+        <option value="Puerto Carreño">Puerto Carreño</option>
+        <option value="Puerto Inírida">Puerto Inírida</option>
+        <option value="Quibdó">Quibdó</option>
+        <option value="Riohacha">Riohacha</option>
+        <option value="San Andrés">San Andrés</option>
+        <option value="San José del Guaviare">San José del Guaviare</option>
+        <option value="Santa Marta">Santa Marta</option>
+        <option value="Sincelejo">Sincelejo</option>
+        <option value="Tunja">Tunja</option>
+        <option value="Valledupar">Valledupar</option>
+        <option value="Villavicencio">Villavicencio</option>
+        <option value="Yopal">Yopal</option>
+      </select>
+      <input
+        class="controls"
+        type="adress"
+        name="dirección"
+        id="dirección"
+        placeholder="Dirección"
+      />
+      <!--<input class="controls" type="date" name="date" min="2015-01-01"
+    max="2032-01-01" placeholder="Fecha"/>
+    <input class="controls" type="time" name="hora" min="08:00" max="16:30" step="360" placeholder="Hora">-->
+      <!--====================== menu lateral ==========================-->
+      <!--====================== botones==========================-->
+      <div class="btn-agenda">
+        <p>
+          <input class="botons" type="submit" value="Enviar" />
+          <input class="botons" type="reset" value="Limpiar" />
+        </p>
+      </div>
+    </section>
+    <section>
+      <nav class="main-menu">
+        <ul class="container-lateral">
+          <div>
+            <a href="#" class="lateral"><p>Usuario</p></a>
+          </div>
+        </ul>
+        <ul class="container-lateral2">
+          <div>
+            <a href="#" class="lateral2"><p>Examenes</p></a>
+          </div>
+          <div>
+            <a href="#" class="lateral2"><p>Resultados</p></a>
+          </div>
+          <div>
+            <a href="#" class="lateral2"><p>Laboratotio</p></a>
+          </div>
+          <div>
+            <a href="#" class="lateral2"><p>Autorizaciones</p></a>
+          </div>
+        </ul>
+        <ul class="nav-logout">
+          <div>
+            <a href="#" class="logout">Cerrar sesión</a>
+          </div>
+        </ul>
+      </nav>
+    </section>
+  </body>
+</html>
